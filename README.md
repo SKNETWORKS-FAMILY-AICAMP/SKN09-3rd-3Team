@@ -2,7 +2,7 @@
 
 > SK Networks AI Camp 9기
 > 
-> 개발기간: 25.0.03 - 25.02.14
+> 개발기간: 25.03.0 - 25.03.0
 <br>
 
 # 0. 팀 소개
@@ -71,8 +71,7 @@
 # 3. WBS
 ><br>
 >
->![readme](https://github.com/user-attachments/assets/2bf5ee49-d8a6-4d4b-b27d-1ed3f1459bd1)
->✅구글 드라이브를 이용하여 일정관리 수행
+>
 
 
 ---
