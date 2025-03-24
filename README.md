@@ -1,4 +1,4 @@
-# SKN09-2nd-4Team
+# SKN09-3rd-3Team
 
 > SK Networks AI Camp 9기
 > 
