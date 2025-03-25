@@ -15,7 +15,6 @@
 >### 💲팀원 소개
 ><table align=center>
 >  <tbody>
->   <tr>
 >    <br>
 >      <td align=center><b>서예찬</b></td>
 >      <td align=center><b>전성원</b></td>
@@ -24,7 +23,7 @@
 >    </tr>
 >    <tr>
 >      
->      </td>
+>    
 >    </tr>
 >    <tr>
 >      <td><a href="https://github.com/syc9811"><div align=center>@syc9811</div></a></td>
