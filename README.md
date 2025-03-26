@@ -19,7 +19,7 @@
 >      <td align=center><b>서예찬</b></td>
 >      <td align=center><b>전성원</b></td>
 >     <td align=center><b>조민훈</b></td>
->      <td align=center><b>최제동</b></td>
+>      <td align=center><b>최재동</b></td>
 >    </tr>
 >    <tr>
 >      
