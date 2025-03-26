@@ -56,13 +56,18 @@
 
 
 # 2. 기술 스택
->
-| 분야 |기술|
-|------|---|
-|협업 및 형상 관리|<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" />|
-|개발 환경 & 언어|<img src="https://img.shields.io/badge/VScode-007ACC?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />|
-|데이터 분석 & 머신러닝|<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white" /> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=Matplotlib&logoColor=white" /> <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=Seaborn&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />|
-|대시보드|<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />|
+
+| 분야                   | 기술 및 라이브러리                                                                                                                                                                                                                                       |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 프로그래밍 언어 & 개발환경          | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />                                                                                                                                     |
+| 웹 프레임워크            | <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />                                                                                                                                   |
+| LLM 체인 및 자연어 처리   | <img src="https://img.shields.io/badge/LangChain-FF5733?style=for-the-badge&logo=&logoColor=white" />                                                                                                                                |
+| AI 모델               |  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" />                                                                                                                                  |
+| 데이터베이스 및 임베딩     |  <img src="https://img.shields.io/badge/Chroma%20DB-2C3E50?style=for-the-badge&logo=&logoColor=white" /><br>                                                                                   |
+| 환경변수 관리            | <img src="https://img.shields.io/badge/python_dotenv-000000?style=for-the-badge&logo=Python&logoColor=white" />                                                                                                                   |
+| 문서 로딩               |  <img src="https://img.shields.io/badge/PyPDFLoader-4B8BBE?style=for-the-badge&logo=&logoColor=white" />                                                                                                      |
+| 협업 및 형상관리        |   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" />                                                                                                                                                                                                                                |
+
 <br>
 
 ---
