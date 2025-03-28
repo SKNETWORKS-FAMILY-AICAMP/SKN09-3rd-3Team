@@ -126,6 +126,24 @@
 # 6. 데이터 및 전처리 
 >
 >### 💲데이터 수집 및 선정
+>![Image](https://github.com/user-attachments/assets/cd69657a-00c7-4166-8ebf-89aa9deed284)
+>![Image](https://github.com/user-attachments/assets/8a489d80-8534-474c-87d7-bcbd6f5a948a)
+>![Image](https://github.com/user-attachments/assets/50c27c1e-6da5-4b59-94ec-470b7b3f08b1)
+>![Image](https://github.com/user-attachments/assets/bdd81505-689d-4526-aefa-89a15017433e)
+>![Image](https://github.com/user-attachments/assets/62b73732-1737-4a25-8b6c-4320742a53bf)
+>
+>
+> #### (국민은행,하나은행,농협은행,우리은행,신한은행 대출상품)
+>
+>(우리은행 출처:https://spot.wooribank.com/pot/Dream?withyou=POLON0055&cc=c010528:c010531;c012425:c012399&PLM_PDCD=P020000273&PRD_CD=P020000273&HOST_PRD_CD=2031037000079)
+>
+>(국민은행 출처:https://obank.kbstar.com/quics?page=C103425)
+>
+>(신한은행 출처:https://bank.shinhan.com/index.jsp#020300000000)
+>
+>(하나은행 출처:https://www.kebhana.com/cont/mall/mall08/mall0802/mall080204/1462446_115200.jsp?_menuNo=98786)
+>
+>(농협은행 출처:https://smartmarket.nonghyup.com/servlet/BFLNW0000R.view)
 
 ><br>
 
