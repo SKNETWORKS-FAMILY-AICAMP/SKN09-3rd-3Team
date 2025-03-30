@@ -196,6 +196,9 @@
 
 - 시스템이 대출 추천과 함께 추가적인 금융 조언(예: DSR, 상환 부담, 금리 변동 가능성 등)을 제공하는지 확인한다.
 
+  
+[기능 테스트 시나리오.docx 보기](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/main/report/%EA%B8%B0%EB%8A%A5%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.docx)
+
 ---
 
 # 9. 진행 과정 중 프로그램 개선 노력
