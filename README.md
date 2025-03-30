@@ -77,14 +77,16 @@
 
 | 분야                   | 기술 및 라이브러리                                                                                                                                                                                                                                       |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 프로그래밍 언어 & 개발환경          | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />                                                                                                                                     |
+| 프로그래밍 언어 & 개발환경 | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" /> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=https://gist.githubusercontent.com/yourusername/uniqueid/raw/vscode-logo.svg&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=for-the-badge&logo=Jupyter&logoColor=white" /> |
 | 웹 프레임워크            | <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />                                                                                                                                   |
-| LLM 체인 및 자연어 처리   | <img src="https://img.shields.io/badge/LangChain-FF5733?style=for-the-badge&logo=&logoColor=white" />                                                                                                                                |
-| AI 모델               |  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" />                                                                                                                                  |
-| 데이터베이스 및 임베딩     |  <img src="https://img.shields.io/badge/Chroma%20DB-2C3E50?style=for-the-badge&logo=&logoColor=white" /><br>                                                                                   |
-| 환경변수 관리            | <img src="https://img.shields.io/badge/python_dotenv-000000?style=for-the-badge&logo=Python&logoColor=white" />                                                                                                                   |
-| 문서 로딩               |  <img src="https://img.shields.io/badge/PyPDFLoader-4B8BBE?style=for-the-badge&logo=&logoColor=white" />                                                                                                      |
-| 협업 및 형상관리        |   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" />                                                                                                                                                                                                                                |
+| LLM 체인 및 자연어 처리   |![LangChain](https://img.shields.io/badge/LangChain-005F73?style=for-the-badge&logo=LangChain&logoColor=white)                                                                                                     |
+| AI 모델               | <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=HuggingFace&logoColor=black" />                         |
+| 데이터베이스 및 임베딩     | <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logo=https://gist.githubusercontent.com/yourusername/uniqueid/raw/chromadb-logo.svg&logoColor=white" />                                                                                                   |
+| 환경변수 관리            | <img src="https://img.shields.io/badge/python_dotenv-000000?style=for-the-badge&logo=Python&logoColor=white" />                                                                                                                                      |
+| 문서 로딩               | <img src="https://img.shields.io/badge/PyPDFLoader-4B8BBE?style=for-the-badge&logo=PyPDFLoader&logoColor=white" />                                                                                                                                              |
+| 협업 및 형상관리        | <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" /> |
+
+                                                                                                                                                                                                                            |
 
 <br>
 
@@ -98,7 +100,7 @@
 
 ---
 # 4.WBS
-
+![Image](https://github.com/user-attachments/assets/fd7cc5a1-bb96-4ef5-9809-d22b485a65a0)
 
 ---
 
@@ -148,6 +150,13 @@
 ><br>
 
 >### 💲데이터 전처리 
+| 순서 | 내용               | 설명                                                                 |
+|------|--------------------|----------------------------------------------------------------------|
+| 1    | `\xa0` → 공백 치환 | PDF 추출 시 자주 나타나는 **비표준 공백 문자(줄바꿈 불가 공백)**를 일반 공백으로 치환 |
+| 2    | URL 제거           | `http` 또는 `https`로 시작하는 **웹 링크(URL)**를 모두 삭제                           |
+| 3    | 공백 정리          | 연속된 **공백, 줄바꿈, 탭** 등을 **하나의 공백**으로 압축하여 깔끔하게 정리               |
+| 4    | 특수 문자 제거     | **한글, 영문, 숫자, 일부 문장 부호**(예: . , ! ?)를 제외한 **불필요한 특수 문자 제거**     |
+| 5    | 양쪽 공백 제거     | 각 문장의 **양쪽에 붙은 공백**을 제거하여 정돈된 형태로 정리                             |
 
 
 ----
