@@ -224,7 +224,7 @@
 # 10. 수행결과
 ![](https://github.com/user-attachments/assets/5b2bbfc1-83d4-4c9b-afe9-e1871d23c9e7)
 
-[테스트 결과](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/tree/main/testresult)
+[테스트 결과](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/tree/main/test_result)
 
 
 ---
