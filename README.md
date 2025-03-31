@@ -115,7 +115,7 @@
     • 다양한 상환 방식(원리금 균등, 원금 균등, 체증식 분할 등)을 계산하고 그 결과를 제공해야 한다.
 
     • 대출 상품별 상환 방식을 비교 분석할 수 있어야 한다.
-🔗: [G_대출 추천 AI 시스템 요구사항 명세서.docx](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/main/report/G_%EB%8C%80%EC%B6%9C%20%EC%B6%94%EC%B2%9C%20AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.docx)
+🔗: [G_대출 추천 AI 시스템 요구사항 명세서.pdf](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/1ab17cb4d59f86b582932a05cce5634da7a13072/report/G_%EB%8C%80%EC%B6%9C%20%EC%B6%94%EC%B2%9C%20AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
 
 <br>
 
@@ -171,6 +171,11 @@
 
 # 7. DB 연동  구현 코드
 
+🔗: [zsw_final_bank_this.py](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/1ab17cb4d59f86b582932a05cce5634da7a13072/zsw_final_bank_this.py)
+
+- 해당 파일의 ```def load_document_from_json_from_json_folder(folder_path):``` 부분과 ```def create_chroma_db():``` 부분 참조
+- ```def load_document_from_json_from_json_folder(folder_path):```에서 ```"./cleaned"```폴더의 json파일을 로드해서 리스트 생성
+- ```def create_chroma_db():```에서 생성한 리스트를 chroma_db로 변환
 
 <br>
 
@@ -194,7 +199,7 @@
     - 시스템이 사용자의 질문에 대해 정확한 정보를 제공하는지 확인한다.
     - 추가적으로 관련 금융 조언이 함께 제공되는지 검토한다.
   
-🔗: [기능 테스트 시나리오.docx 보기](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/main/report/%EA%B8%B0%EB%8A%A5%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.docx)
+🔗: [기능 테스트 시나리오.pdf 보기](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/1ab17cb4d59f86b582932a05cce5634da7a13072/report/%EA%B8%B0%EB%8A%A5%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.pdf)
 
 <br>
 
