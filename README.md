@@ -24,7 +24,9 @@
 >  </tbody>
 ></table>
 ><br>
->
+
+
+
 # 1. 프로젝트 개요
 
 ### 프로젝트 명
@@ -60,7 +62,9 @@
 
 - **해결 과제**: 실시간 업데이트가 가능하고, 복잡한 변수를 종합적으로 고려하여 정확한 정보를 제공할 수 있는 LLM 기반 대출 상담 챗봇의 도입이 요구됨.
 
----
+<br>
+
+
 # 2. 기술 스택
 
 | 분야                   | 기술 및 라이브러리                                                                                                                                                                                                                                       |
@@ -74,8 +78,8 @@
 | 문서 로딩               | <img src="https://img.shields.io/badge/PyPDFLoader-4B8BBE?style=for-the-badge&logo=PyPDFLoader&logoColor=white" />                                                                                                                                              |
 | 협업 및 형상관리        | <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" /> |
 
+<br>
 
----
 
 # 3. 시스템 아키텍처
 ><br>
@@ -87,7 +91,8 @@
 # 4.WBS
 ![Image](https://github.com/user-attachments/assets/fd7cc5a1-bb96-4ef5-9809-d22b485a65a0)
 
----
+<br>
+
 
 # 5. 요구사항 명세서
 >
@@ -112,6 +117,8 @@
     • 대출 상품별 상환 방식을 비교 분석할 수 있어야 한다.
 🔗: [G_대출 추천 AI 시스템 요구사항 명세서.docx](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/main/report/G_%EB%8C%80%EC%B6%9C%20%EC%B6%94%EC%B2%9C%20AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.docx)
 
+<br>
+
     
 # 6. 데이터 및 전처리 
 >
@@ -129,11 +136,11 @@
 
 
 #### 국민은행,하나은행,농협은행,우리은행,신한은행 대출상품 출처
-- 🔗 우리은행 출처:https://spot.wooribank.com/pot/Dream?withyou=POLON0055&cc=c010528:c010531;c012425:c012399&PLM_PDCD=P020000273&PRD_CD=P020000273&HOST_PRD_CD=2031037000079
-- 🔗 국민은행 출처:https://obank.kbstar.com/quics?page=C103425
-- 🔗 신한은행 출처:https://bank.shinhan.com/index.jsp#020300000000
-- 🔗 하나은행 출처:https://www.kebhana.com/cont/mall/mall08/mall0802/mall080204/1462446_115200.jsp?_menuNo=98786
-- 🔗 농협은행 출처:https://smartmarket.nonghyup.com/servlet/BFLNW0000R.view
+- 🔗 [하나은행 출처](https://www.kebhana.com/cont/mall/mall08/mall0802/mall080204/1462446_115200.jsp?_menuNo=98786)
+- 🔗 [농협은행 출처](https://smartmarket.nonghyup.com/servlet/BFLNW0000R.view)
+- 🔗 [국민은행 출처](https://obank.kbstar.com/quics?page=C103425)
+- 🔗 [신한은행 출처](https://bank.shinhan.com/index.jsp#020300000000)
+- 🔗 [우리은행 출처](https://spot.wooribank.com/pot/Dream?withyou=POLON0055&cc=c010528:c010531;c012425:c012399&PLM_PDCD=P020000273&PRD_CD=P020000273&HOST_PRD_CD=2031037000079)
 
 <br>
 
@@ -146,10 +153,27 @@
 | 4    | 특수 문자 제거     | **한글, 영문, 숫자, 일부 문장 부호**(예: . , ! ?)를 제외한 **불필요한 특수 문자 제거**     |
 | 5    | 양쪽 공백 제거     | 각 문장의 **양쪽에 붙은 공백**을 제거하여 정돈된 형태로 정리                             |
 
----
+🔗: [전처리 완료된 db 생성용 데이터](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/f8348c9b5de3e3ade820db704cad5856266c696f/cleaned/cleaned_data.json)
+<br>
+<br>
+
+>### 💲학습용 데이터셋 생성
+>
+  - 위에서 생성한 json파일은 "source"와 "content", 즉 출처와 문서의 내용만을 담고 있음.
+  - 파인튜닝용 데이터로는 "instruction","input","output"의 형태를 한 jsonl 파일이 필요
+  - 단순 데이터 문서가 아닌 질의 형식의 데이터가 필요했으므로 gpt-4o-mini 모델을 api로 호출해서 분단된 청크 하나당 1~3개의 질의를 생성해 형식에 맞게 출력하게 함.
+  - 답변을 jsonl파일에 순차적으로 저장한뒤, `" "`,`\n` 같은 불필요한 문자열 제거
+
+🔗: [파인튜닝용 데이터 셋](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/f8348c9b5de3e3ade820db704cad5856266c696f/training_data/qa_dataset_cleaned.jsonl)
+
+<br>
+
 
 # 7. DB 연동  구현 코드
-----
+
+
+<br>
+
 
 # 8. 테스트 계획 및 결과 보고서
 
@@ -172,7 +196,8 @@
   
 🔗: [기능 테스트 시나리오.docx 보기](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/blob/main/report/%EA%B8%B0%EB%8A%A5%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.docx)
 
----
+<br>
+
 
 # 9. 진행 과정 중 프로그램 개선 노력
 
@@ -191,7 +216,27 @@
 - RAG + Memory 기능 최적화: 기존 함수 로직을 삭제하고, RAG와 Memory Buffer를 활용하여 더욱 정교한 대화 흐름을 유지할 수 있도록 시스템을 개선 노력
 - API 보안 강화: 기존의 API Key 하드코딩 방식을 load_dotenv()를 활용한 환경 변수 관리 방식으로 변경하여 보안성 향상
 
----
+**3.1 모델 파인튜닝**
+- 좀 더 금융 상담 업무에 특화되고, 일관된 응답을 위해 모델 파인 튜닝 진행
+- [KoAlpaca](https://huggingface.co/beomi/KoAlpaca-Polyglot-5.8B) 모델을 사용해서 진행
+```LoRA 학습 설정
+lora_config = LoraConfig(
+    r=8,
+    lora_alpha=32,
+    target_modules=["query_key_value"],
+    lora_dropout=0.05,
+    bias="none",
+    task_type=TaskType.CAUSAL_LM,
+)
+```
+- 학습 결과
+![Image](https://github.com/user-attachments/assets/2bf890de-1c9a-48d8-95b7-b2f524efb6f7)
+![Image](https://github.com/user-attachments/assets/34832a5c-380d-4d0d-b7d5-c33b220975c7)
+  - 전체적으로는 나쁘지 않은 대답을 보이지만 구체적인 상품의 설명을 제공하지 않음
+  - 상세 정보에 대한 대답을 하지 않고 범용적이고 일반화된 응답 위주로 답하는 경향을 보임
+
+
+<br>
 
 
 # 10. 수행결과
@@ -199,8 +244,8 @@
 
 🔗: [테스트 결과 보기](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN09-3rd-3Team/tree/main/test_result)
 
+<br>
 
----
 
 # 11.문제 해결 및 향후 과제
 - **추론이 필요한 질문 처리 개선**: 특정 키워드가 포함된 질문은 정확한 문서를 찾아내는 반면, 맥락을 기반으로 한 추론 질문에서는 정상적인 응답이 어려운 문제가 발견됨. 이를 해결하기 위해 RAG 모델의 검색 및 응답 최적화를 지속적으로 진행예정
@@ -209,6 +254,8 @@
 
 - **자가 피드백 기능 재설계**: 기존 코드 수정으로 인해 피드백 기능 로직을 대폭 변경해야 하는 상황이 발생함으로 오작동이 다분함.
   - Feedback 기능 보류: 기존 코드가 대폭 수정됨에 따라 피드백 기능이 보류되었으며, 이후 Prompt 로직을 추가 수정하여 보다 효과적인 방식으로 재도입할 계획
+
+<br>
 
 
 # 12. 한 줄 회고
