@@ -176,10 +176,11 @@
 - 해당 파일의 ```def load_document_from_json_from_json_folder(folder_path):``` 부분과 ```def create_chroma_db():``` 부분 참조
 - ```def load_document_from_json_from_json_folder(folder_path):```에서 ```"./cleaned"```폴더의 json파일을 로드해서 리스트 생성
 - ```def create_chroma_db():```에서 생성한 리스트를 chroma_db로 변환
+- db 연동 확인
 
 ![langsmith](https://github.com/user-attachments/assets/e2af3d4b-042f-4234-ad02-0d6b671f9961)
 
-- db 연동 확인
+
 
 <br>
 
